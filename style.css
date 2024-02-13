@@ -1,0 +1,443 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+}
+
+.container {
+    background-color: ;
+    
+}
+
+header {
+    border-bottom: 2px solid black;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5em;
+    padding: 1em 0px;
+    background-color: white;
+    
+   
+}
+
+.nav__logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav__menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1.3rem;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav__menu {
+    display: none;
+}
+
+
+section {
+    margin: 0px 5em;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black ;
+   
+    
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 0px;
+   
+}
+
+.hero h1 {
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-top: 0.5em;
+}
+
+.hero h3 {
+    font-size: 1.7rem;
+    font-weight:1200;
+    margin-bottom: 0.5em;
+}
+
+.hero ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero a:link {
+    color: black;
+}
+
+.hero a:hover {
+    color: blue;
+}
+
+.feature {
+    
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+}
+
+.bonsai-feature {
+    text-align: center;
+    border-right: 2px solid black;
+    padding: 1em 0px;
+    font-size: 1.2rem;
+    
+    
+    
+}
+
+.bonsai-feature ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    
+    line-height: 1.5;
+    margin-top: 1em;
+   
+    
+}
+
+.bonsai-feature li {
+    text-align: start;
+    margin-left: 2em;
+}
+
+.bonsai-feature h3 {
+    font-size: 1.7rem;
+        font-weight: 1200;
+        
+}
+
+.color-pallete__grid {
+    width: 70%;
+    margin: 1.3em auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.color-pallete__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+
+.color {
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.recommend p {
+    line-height: 1.5;
+    margin-top: 1em;
+    font-weight: 600;
+   
+}
+
+.learn-btn {
+    padding: 0.6em;
+    border: 2px solid black;
+    font-size: 1rem;
+    background-color: white;
+    margin-top: 1em;
+}
+
+.learn-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.resource ul {
+    list-style-type: none;
+    
+}
+
+.resource {
+    border-right: none;
+}
+
+.recommend a, .resource a {
+    color: black;
+}
+
+.recommend a:hover, .resource a:hover {
+    color: blue;
+}
+
+.challenge {
+    border-bottom: 2px solid black;
+    display: flex;
+    padding: 3em 0em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.challenges {
+    max-width: 350px;
+    margin: 13px;
+    padding: 2em;
+    width: fit-content;
+}
+
+.challenges h2 {
+    margin-bottom: 1em;
+    font-size: 30px;
+}
+
+.challenge__up, .challenge__easy {
+    background-color: black;
+    color: white;
+}
+
+.challenge__easy {
+    background-color: rgba(0, 0, 0, 0.721);
+    color: white;
+}
+
+.challenge__hard {
+    border: 2px solid black;
+}
+
+.challenge__hard a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.challenge__hard a:hover {
+    color: blue;
+}
+
+.reference {
+    padding: 0px 2em;
+}
+
+.reference h2 {
+    font-size: 2.7rem;
+    text-align: center;
+    padding: 1em;
+    font-weight: 900;
+}
+
+.reference img {
+    box-shadow: rgb(235, 235, 235) 1px 2px 51px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3em 0px;
+}
+
+.footer__menu-list {
+    list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        margin-top: 1em;
+}
+
+.footer__menu-list a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__menu-list li:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:770px) {
+    .nav__menu-list {
+        display: none;
+    }
+    header {
+        background-color: white;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 1.8em;
+        
+    }
+
+    .nav__logo {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+
+    section {
+        border: none;
+        list-style-position: inside;
+        margin: 0px 0em;
+        border-bottom: 2px solid black;
+    }
+
+    .feature {
+        display: flex;
+        flex-flow: column;
+        border-bottom: 2px solid black;
+        
+        
+    }
+
+
+
+    .bonsai-feature {
+        border:none;
+        font-size: 1.2rem;
+        text-align: left;
+        padding: 1em 2em;
+        border-bottom: 2px solid black;
+    }
+
+    .bonsai-feature ul {
+        list-style-type: circle;
+        list-style-position: inside;
+        text-align: left;
+        margin-top: 1em;
+    }
+
+    .color-pallete__grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 0em;
+        margin-top: 0px;
+
+
+    }
+
+    .right {
+        margin-left: 0em;
+    }
+
+    .color {
+        margin-right: 7px;
+    }
+
+    .color-pallete__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .challenge__hard {
+        width: 100%;
+    }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: start;
+            padding: 3em 2em;
+        }
+
+        .resource {
+            border-bottom: none;
+        }
+    
+        .footer__menu-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+        
+        }
+    
+        .footer__menu-list a:link {
+            color: white;
+            text-decoration: none;
+        }
+    
+        .footer__menu-list li:hover {
+            text-decoration: underline;
+        }
+
+
+
+       
+
+
+
+    
+
+    
+
+   
+    
+}
+
+
