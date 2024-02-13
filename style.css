@@ -85,9 +85,9 @@ section {
 }
 
 .hero h1 {
-    font-size: 7rem;
+    font-size: clamp(5rem, 2.2vh, 7rem);
     font-weight: bolder;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
 }
 
 .hero h3 {
@@ -177,6 +177,20 @@ section {
     height: 25px;
     background-color: green;
     border-radius: 50%;
+   
+}
+
+.color-pallete__grey {
+    background-color: #4c4d5f;
+}
+
+.color-pallete__white {
+    background-color: #ffff;
+    border: 0.5px solid grey;
+}
+
+.color-pallete__yellow {
+    background-color: #f8db62;
 }
 
 .right {
@@ -346,12 +360,40 @@ footer {
         
     }
 
+        .hero {
+           text-align: start;
+            padding: 2em;
+    
+        }
+
+    
+        .hero h1 {
+            font-size: clamp(4rem, 2.2vh, 5rem);
+            font-weight: bolder;
+            margin-top: 0.8em;
+        }
+    
+        .hero h3 {
+            font-size: 1.7rem;
+            font-weight: 1200;
+            margin-bottom: 0.5em;
+        }
+    
+        .hero ul {
+            display: block;
+            list-style-type: none;
+            font-size: 1.2rem;
+        }
+
+    .feature {
+        
+    }    
 
 
     .bonsai-feature {
         border:none;
         font-size: 1.2rem;
-        text-align: left;
+        text-align: start;
         padding: 1em 2em;
         border-bottom: 2px solid black;
     }
@@ -359,7 +401,6 @@ footer {
     .bonsai-feature ul {
         list-style-type: circle;
         list-style-position: inside;
-        text-align: left;
         margin-top: 1em;
     }
 
@@ -380,14 +421,19 @@ footer {
     }
 
     .color {
-        margin-right: 7px;
+        margin-right: 0px;
     }
 
     .color-pallete__items {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
 
+    }
+
+    .color-pallete__grid {
+        width: 90%;
+        display: flex;
     }
 
     .challenge__hard {
@@ -403,6 +449,10 @@ footer {
 
         .resource {
             border-bottom: none;
+        }
+
+        .recreate ul, .resource ul {
+            margin-left: -2em;
         }
     
         .footer__menu-list {
